@@ -151,8 +151,8 @@ root/
 1. **Create a virtual environment and install dependencies:**
 
    ```bash
-   python -m venv venv
-   venv\Scripts\activate (on windows)
+   py -3.11 -m venv .venv
+   .venv\Scripts\activate (on windows)
    pip install -r requirements.txt
    ```
 
