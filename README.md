@@ -145,7 +145,7 @@ root/
 
    ```bash
    git clone <repository_url>
-   cd "MG RAG"
+   cd "Legal RAG Assistant"
    ```
 
 1. **Create a virtual environment and install dependencies:**
