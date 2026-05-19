@@ -72,6 +72,8 @@ Answers must be strictly grounded and reliably cited.
 4. **Why wrap RAG in an Agent?**
    Users often have follow-up questions ("What does that mean in simple terms?") or conversational pleasantries ("Hello!"). An agent can handle the conversation naturally while routing strict document-retrieval tasks to the RAG tool, keeping the RAG pipeline highly specialized and focused on accuracy.
 
+- **Note:** We chose to implement structured outputs to guarantee accurate citations, consciously trading off the lower perceived latency of answer streaming to better serve the precision needs of legal analysis
+
 ---
 
 ## Project Structure
